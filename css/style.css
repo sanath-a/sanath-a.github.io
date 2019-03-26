@@ -393,7 +393,7 @@ ol {
 --------------------------*/
 .intro-section {
   padding: 110px 0;
-  background-image: url("./san_fran.jpg")
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./san_fran.jpg");
 }
 
 /*------------------------
@@ -508,6 +508,9 @@ ol {
   transform: scale(1);
 }
 
+#intro h2{
+  color: #99ffff;
+}
 #bio {
   padding-top: 100px;
   padding-bottom: 100px;
