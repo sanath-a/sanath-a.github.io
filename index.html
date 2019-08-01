@@ -1,58 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="styles.css">
+
 <head>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name = "Author" content = "Sanath Angalakudati">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
+  <meta name="Author" content="Sanath Angalakudati">
+  <link href="https://fonts.googleapis.com/css?family=Muli|PT+Serif&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/0120d5654c.js"></script>
 
 
   <title>Sanath Angalakudati</title>
 </head>
+
 <body>
-    <header>
-
-    </header>
-    <div class="hero-image">
-      <div class = "hero-text">
-        <h1> Hi there - I'm <span id = 'name'> Sanath</span>, <span class = "typed"> </span></h1>
+  <header>
+    <div class="nav">
+      <a id="logo" href="#"> <img src="favicon-32x32.png" alt="favicon"> </a>
+      <div class="nav-buttons">
+        <a href= #start> About </a>
+        <a href = #projects> Projects </a>
+        <a href = #closer> Contact </a>
       </div>
-
-      <div class = "construction">
-      <h4> Website currently under reconstruction... in the meantime checkout my LinkedIn below! </h4>
-      <a href = "https://www.linkedin.com/in/sanathang/">
-      <img src="linked.png"> </a>
-      </div>
-
     </div>
+    </div>
+  </header>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1> Hi there - I'm <span id='name'> Sanath</span>, <span class="typed"> </span></h1>
+    </div>
+
+    <div class="scroll">
+      <h3 id="scroll-text"> Scroll down for more </h3>
+      <i class="fas fa-chevron-down" id = "start" ></i>
+    </div>
+  </div>
 
   <br> <br>
 
+  <section class="section-1" >
+    <!-- Start Section 1-->
+    <div class="container">
+      <div class="bio">
+        <p> Thanks for stopping by! I'm a computer science major at Northwestern University, looking to break into industry as a software developer. I've always
+          enjoyed the process of building things and the problem solving that goes along with it - ever since I started out with LEGO robotics. Now that I've traded
+          in building blocks for a text editor and the command line, I've been busy honing my skills working on a variety of projects in school and otherwise. Check out
+          a couple of my projects below, and I'll be sure to keep this page updated with new adventures!
+        </p>
+      </div>
+      <div class="bio-pic">
+
+        <img src="about.jpg" alt="my face">
+      </div>
+    </div>
+
+
+  </section>
+    <!-- End Section 1-->
 
 
 
+  <section class = "section-2" id = "projects">
+    <div class = "card-row" >
+      <article class = "card">
+        <div class = "blog-pic">
+          <img src = "/poster.jpg" alt = "Evolutionary Dynamics poster">
+        </div>
+        <p> As an intern at the <a id = "link" href = "http://hallatscheklab.berkeley.edu"> Hallatscheck Evolutionary Dynamics</a> lab at UC Berkeley, I studied the evolutionary dynamics of bacteriophages (viruses that attack bacteria) that live in your gut.
+            Bacteria have very short lifespans, making them a great model organism to study how evolution plays out over time. While there's plenty of research going on regarding the bacteria
+            of the Human Gut Microbiome, there isn't a lot of literature about the viruses that also exist in the biome. Here, I look at a recently discovered virus dubbed "CrAssphage" (I didn't name it). </p>
+        <a href = "poster.pdf"> Check out the poster here </a>
+      </article>
+      <article class = "card">
+        <div class = "blog-pic">
+          <img src = "digiweight_poster.jpg" alt = "Poster for the digiweight">
+        </div>
+        <p> As part of a design team in <a id = "link" href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication"> Northwestern's Design Thinking and Communication (DTC) </a>program, my team and I designed an innovative, custom-made scale for the Shirley Ryan AbilityLab in Chicago.
+           The AbilityLab uses custom harnesses to offload weight from patients that are relearning how to walk - but lacked a method to measure exactly how much weight is being offloaded. The scale uses an arduino
+           along with two load cells to integrate into the AbilityLab's existing equipment and workflow easily. Check out our poster below. </p>
+        <a href = "digiweight_poster.pdf"> Check out the poster here </a>
+      </article>
+  </div>
 
+  </section>
 
+  <br> <br>
+  <!-- End Section 2 -->
+  <section class = "section-3">
 
+    <div class = "footer" id = "closer">
+      <p> Intrigued? Send a note to sanath@u.northwestern.edu or send me a chat over LinkedIn! </p>
 
-
-
-   </section>
-
-
-
+      <a href = "https://www.linkedin.com/in/sanathang/">
+      <img src="linked.png"> </a>
+    </div>
   <script src="typed.js"></script>
   <script>
-  var typed = new Typed(".typed", {
-    strings: ["","a developer^1000", "a student^1000", "an ultimate player^1000"],
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true
-  });
+    var typed = new Typed(".typed", {
+      strings: ["", "a developer^1000", "a student^1000", "a designer^1000"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+    });
   </script>
 
 </body>
