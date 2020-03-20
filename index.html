@@ -16,34 +16,36 @@
 </head>
 
 <body>
-  <header>
-    <div class="nav">
-      <a id="logo" href="#"> <img src="favicon-32x32.png" alt="favicon"> </a>
-      <div class="nav-buttons">
-        <a href= #start> About </a>
-        <a href = #projects> Projects </a>
-        <a href = #closer> Contact </a>
+  <div class = "hero">
+    <header>
+        <a id="logo" href="#"> <img src="assets/favicon-32x32.png" alt="favicon"> </a>
+        <div class="nav-buttons">
+          <a href= #start> About </a>
+          <a href = #projects> Projects </a>
+          <a href = #footer> Contact </a>
+        </div>
+    </header>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1> Hi there - I'm <span id='name'> Sanath</span>, <span class="typed"> </span></h1>
       </div>
-    </div>
-    </div>
-  </header>
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1> Hi there - I'm <span id='name'> Sanath</span>, <span class="typed"> </span></h1>
-    </div>
 
-    <div class="scroll">
-      <h3 id="scroll-text"> Scroll down for more </h3>
-      <i class="fas fa-chevron-down" id = "start" ></i>
+      <div class="scroll">
+        <h3> Scroll down for more </h3>
+        <i class="fas fa-chevron-down" id = "start" ></i>
+      </div>
     </div>
   </div>
 
   <br> <br>
 
+  <div class = "content">
   <section class="section-1" >
+
     <!-- Start Section 1-->
-    <div class="container">
+
       <div class="bio">
+        <h3> A little about me -- </h3>
         <p>Thanks for stopping by! I'm a computer science major at Northwestern University, looking to break into industry as a software developer. I've always
           enjoyed the process of building things and the problem solving that goes along with it - ever since I started out with LEGO robotics. Now that I've traded
           in building blocks for a text editor and the command line, I've been busy honing my skills working on a variety of projects in school and otherwise. Check out
@@ -52,51 +54,84 @@
       </div>
       <div class="bio-pic">
 
-        <img src="about.jpg" alt="my face">
+        <img src="assets/about.jpg" alt="my face">
       </div>
-    </div>
 
 
   </section>
+  <span id = "projects"> </span>
     <!-- End Section 1-->
-
-
-
-  <section class = "section-2" id = "projects">
-    <div class = "card-row" >
+<div id = "project-title">
+   <h3>  And a few projects I've worked on --</h3>
+ </div>
+  <section class = "section-2">
+    <div class = "featured-content" >
       <article class = "card">
-        <div class = "blog-pic">
-          <img src = "/poster.jpg" alt = "Evolutionary Dynamics poster">
-        </div>
-        <p> As an intern at the <a id = "link" href = "http://hallatscheklab.berkeley.edu"> Hallatscheck Evolutionary Dynamics</a> lab at UC Berkeley, I studied the evolutionary dynamics of bacteriophages (viruses that attack bacteria) that live in your gut.
-            Bacteria have very short lifespans, making them a great model organism to study how evolution plays out over time. While there's plenty of research going on regarding the bacteria
-            of the Human Gut Microbiome, there isn't a lot of literature about the viruses that also exist in the biome. Here, I look at a recently discovered virus dubbed "CrAssphage" (I didn't name it). </p>
-        <a href = "poster.pdf"> Check out the poster here </a>
+        <img sclass = "blog-pic" src = "assets/poster.jpg" alt = "Evolutionary Dynamics poster">
+        <p> As an intern at the <a id = "link" href = "http://hallatscheklab.berkeley.edu">
+           Hallatscheck Evolutionary Dynamics</a> lab at UC Berkeley, I studied
+           the evolutionary dynamics of bacteriophages (viruses that attack bacteria) that live in your gut.
+            Bacteria have very short lifespans, making them a great model organism to
+            study how evolution plays out over time. While there's plenty of research going on regarding the bacteria
+            of the Human Gut Microbiome, there isn't a lot of literature about the
+            viruses that also exist in the biome. Here, I look at a recently discovered
+            virus dubbed "CrAssphage" (I didn't name it). </p>
+        <a href = "assets/poster.pdf"> Check out the poster here </a>
       </article>
       <article class = "card">
-        <div class = "blog-pic">
-          <img src = "digiweight_poster.jpg" alt = "Poster for the digiweight">
-        </div>
-        <p> As part of a design team in <a id = "link" href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication"> Northwestern's Design Thinking and Communication (DTC) </a>program, my team and I designed an innovative, custom-made scale for the Shirley Ryan AbilityLab in Chicago.
-           The AbilityLab uses custom harnesses to offload weight from patients that are relearning how to walk - but lacked a method to measure exactly how much weight is being offloaded. The scale uses an arduino
+          <img class = "blog-pic" src = "assets/digiweight_poster.jpg" alt = "Poster for the digiweight">
+          <p> As part of a design team in <a id = "link" href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication">
+           Northwestern's Design Thinking and Communication (DTC) </a>program, my team
+           and I designed an innovative, custom-made scale for the Shirley Ryan AbilityLab in Chicago.
+           The AbilityLab uses custom harnesses to offload weight from patients that are relearning how to walk -
+           but lacked a method to measure exactly how much weight is being offloaded. The scale uses an arduino
            along with two load cells to integrate into the AbilityLab's existing equipment and workflow easily. Check out our poster below. </p>
-        <a href = "digiweight_poster.pdf"> Check out the poster here </a>
+        <a href = "assets/digiweight_poster.pdf"> Check out the poster here </a>
       </article>
+      <article class = "card">
+        <img class = "blog-pic" src = "assets/elate.png" alt = "Elate Website">
+        <p> For the final project of my <a id = "link" href = "https://hci330.github.io/winter2020/"> Human Computer Interaction Course</a>,
+           my teammates and I created a sample website design to help people journal positive memories.
+            This website uses barebones HTML, CSS, and Javascript, so we could
+            really focus on the design process (no backend!). We went through multiple iterations
+            of the site, with plenty of user testing. It's really simplistic,
+            but we got really great reviews on the clean and beautiful UI. It's currently live,
+            so feel free to poke around using the link below.
+            The username is buymepants (ask me if you want to know why) and the password is password2.
+        </p>
+        <a href = "https://hci330-bmp.github.io/elate/"> Check out the site here </a>
+      </article>
+      <article class = "card">
+        <img class = "blog-pic" src = "assets/tf_logo.png" alt = "TensorFlow logo">
+        <p> This is a toy Convolutional Neural Network, made for a small task for <a id = "link" href = "http://www.nalshurafa.com/">
+           Northwestern's HABits lab</a>. There's no data here (due to privacy concerns), just my code. There are two CNNs
+          trained on two different datasets (original and masked), but they have the same architecture.
+          They're both simple: just two convolutional layers and one dense layer. Still, they achieved
+          around 96% accuracy on our test datasets. I developed the CNNs using TensorFlow and wrote a neat
+          function using OpenCV to pull frames from a video (which was the raw data source). The repository
+          is linked below.
+        </p>
+        <a href = "https://github.com/sanath-a/drinking-detection"> Check out the repo here </a>
+
+
   </div>
 
   </section>
 
   <br> <br>
   <!-- End Section 2 -->
-  <section class = "section-3">
+  </div>
+  <section class = "section-3" id = "footer">
 
-    <div class = "footer" id = "closer">
+    <div class = "footer" >
       <p> Intrigued? Send a note to sanath@u.northwestern.edu or connect with me over LinkedIn! </p>
 
       <a href = "https://www.linkedin.com/in/sanathang/">
-      <img src="linked.png"> </a>
+      <img src="assets/linked.png"> </a>
     </div>
-  <script src="typed.js"></script>
+
+
+  <script src="js/typed.js"></script>
   <script>
     var typed = new Typed(".typed", {
       strings: ["", "a developer^1000", "a student^1000", "a designer^1000"],
