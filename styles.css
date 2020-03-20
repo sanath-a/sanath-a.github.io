@@ -130,29 +130,23 @@ header a:hover {
   margin-left: 7.5%;
   margin-bottom: 2em;
 }
-.section-2 {
-  margin-top: 5em;
-}
 
-.card-row{
-  margin-top: 1em;
+
+.featured-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
   display: flex;
-  max-height: 25em;
-  max-width: 100%;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 10em;
 }
-
 .card {
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2px;
-  align-content: center;
-  font-family: "Muli", sans-serif;
   text-align: center;
-  font-size: 1.2em
+  padding: 10px;
 }
 .card p { color: #979797; width: 90%}
 .card a {
@@ -189,7 +183,7 @@ header a:hover {
   .bio p {padding-left: 0; text-align: center;}
   .bio-pic img { max-width: 40%; padding-left: 0;}
   #project-title { display: none;}
-  .card-row {flex-direction: column; align-items: center; max-height: 30%; margin-bottom: 5em;}
+  .featured-content {flex-direction: column; align-items: center; max-height: 30%; margin-bottom: 5em;}
   .card { max-width: 90%}
   .card p { text-align: center;}
 
