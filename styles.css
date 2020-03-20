@@ -180,11 +180,11 @@ header a:hover {
 @media screen and (max-width:1024px){
   .section-1 {flex-direction: column-reverse; max-height: 30%; margin-bottom: auto;}
   .section-1 h3 {display: none;}
-  .bio p {padding-left: 0; text-align: center;}
+  .bio p {padding-left: 0; text-align: center; font-size: 1em;}
   .bio-pic img { max-width: 40%; padding-left: 0;}
   #project-title { display: none;}
-  .featured-content {flex-direction: column; align-items: center; max-height: 30%; margin-bottom: 5em;}
-  .card { max-width: 90%}
-  .card p { text-align: center;}
+  .featured-content {flex-direction: column; align-items: center; margin-bottom: 5em;}
+  .card {width: 90%;}
+  .card p { text-align: center; }
 
 }
