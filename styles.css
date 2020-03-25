@@ -205,6 +205,7 @@ header a:hover {
   #project-title { display: none;}
   .featured-content {flex-direction: column; align-items: center; margin-bottom: 5em;}
   .card {width: 90%;}
+  .card img {max-width: 90%;}
   .card p { text-align: center; }
 
 }
