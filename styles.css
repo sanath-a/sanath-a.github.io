@@ -120,6 +120,16 @@ header a:hover {
   font-family: "Muli", sans-serif;
   color: #979797;
 }
+.languages {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.languages h3 {
+  padding-right: 1em;
+  border-right: solid
+}
 
 .bio-pic img {
   max-width: 80%;
@@ -182,6 +192,7 @@ header a:hover {
   .section-1 h3 {display: none;}
   .bio p {padding-left: 0; text-align: center; font-size: 1em;}
   .bio-pic img { max-width: 40%; padding-left: 0;}
+  .languages { display: none;}
   #project-title { display: none;}
   .featured-content {flex-direction: column; align-items: center; margin-bottom: 5em;}
   .card {width: 90%;}
