@@ -40,52 +40,60 @@
     </div>
   </div>
 
-  <br> <br>
-
+  <br/> <br/>
   <div class = "content">
-  <section class="section-1" >
 
     <!-- Start Section 1-->
 
       <div class="bio">
-        <h3> A little about me -- </h3>
-        <p>Thanks for stopping by! I'm a computer science major at Northwestern
-           University, looking to break into industry as a software developer.
-           I've always enjoyed the process of building things and the problem solving
-         that goes along with it - ever since I started out with LEGO robotics. I've
-         since traded in my Lego kits for IDEs and compilers. I've enjoyed diving deep
-         into concepts in Computer Science, Design and Engineering at Northwestern
-         and on my own. I've posted a few highlight projects below and I'll be
-         sure to keep this page updated with new adventures! Be sure to check out
-         my linked with the LinkedIn at the bottom of the page.
-        </p>
 
-        <div class = "languages">
-          <div class = "lang-block">
-              <h3> My favorite languages  </h3>
-              <p> Python (Numpy, TensorFlow), Javascript / Typescript (React and Express), C# </p>
+        <div class = "bio-text">
+          <h3> A little bit about me </h3>
+          <p>
+            Hello and thank you for checking out my website! I'm Sanath, a rising junior at Northwestern University. I've always been interested
+            in entrepreneurship - I love bringing new, original ideas to life. Often, being part of a new venture requires an entrepreneur to
+            wear a lot of hats. I like to think I excel at this. Throughout my time at NU, I've picked up skills in data analytics and machine learning,
+            web development, hardware, and project management. I created this page to demonstrate some of these skills through a few of my favorite projects in and out of the
+            classroom. I'd also suggest checking out my LinkedIn to view my work experience. If you'd like to get in touch, you can find my contact info
+            at the bottom of the page. Currently, I'm actively looking for Summer 2021 intern roles in either Consulting or Product.
+          </p>
+          <div class = "education">
+            <p id = "education-header"> Education </p>
+            <div className = "education-content">
+              <p> B.S <span class = "degree"> Computer Science </span>,  Minor in <span class = "degree"> Psychology </span></p>
+              <p> Kellogg Certificate Program for Undergraduates in <span class="degree"> Managerial Analytics </span></p>
+            </div>
           </div>
-          <div class = "lang-block">
-             <h3> I've also worked in these</h3>
-             <p> C, C++, HTML, CSS, MATLAB, AMPL </p>
-          </div>
-
-         </div>
-
-      </div>
+        </div>
       <div class="bio-pic">
-
         <img src="assets/about.jpg" alt="my face">
       </div>
+    </div>
 
 
-  </section>
+      <div class="homebase-wrapper">
+        <div class = "homebase">
+          <div class="homebase-text">
+            <h2> Homebase </h2>
+            <p> Back in 2019 (when things were still normal!), my friends and I were struggling to find off-campus housing
+            in Evanston. We couldn't find many places that fit our criteria, and even when we did the landlords were often
+            unresponsive. A friend and I created Homebase to help. Homebase is an online platform that connects students to off-campus
+            housing. I'm the CEO and I own the engineering behind the product as well as the product timeline and direction.
+            While this project is still new, I'm really excited about our progress and I've already learned a ton in the process.
+            Check out Homebase <a id = "link" href = "https://homebasenu.com"> here. </a>
+          </p>
+          </div>
+          <div class="homebase-image">
+              <img src="assets/mstile-310x310.png" alt="homebase-logo"/>
+          </div>
+        </div>
+      </div>
+
   <span id = "projects"> </span>
     <!-- End Section 1-->
 <div id = "project-title">
-   <h3>  And a few projects I've worked on --</h3>
- </div>
-  <section class = "section-2">
+   <h3>  And a few projects I've worked on </h3>
+</div>
     <div class = "featured-content" >
       <article class = "card">
         <a href = "https://sanath-a.github.io/pokedex">
@@ -133,20 +141,6 @@
         </p>
         <a href = "https://github.com/sanath-a/drinking-detection"> Check out the repo here </a>
       </article>
-      <!--
-      <article class = "card">
-        <a href = "assets/digiweight_poster.pdf">
-          <img class = "blog-pic" src = "assets/digiweight_poster.jpg" alt = "Poster for the digiweight">
-        </a>
-          <p> As part of a design team in <a id = "link" href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication">
-           Northwestern's Design Thinking and Communication (DTC) </a>program, my team
-           and I designed an innovative, custom-made scale for the Shirley Ryan AbilityLab in Chicago.
-           The AbilityLab uses custom harnesses to offload weight from patients that are relearning how to walk -
-           but lacked a method to measure exactly how much weight is being offloaded. The scale uses an arduino
-           along with two load cells to integrate into the AbilityLab's existing equipment and workflow easily. Check out our poster below. </p>
-        <a href = "assets/digiweight_poster.pdf"> Check out the poster here </a>
-      </article>
-    -->
       <article class = "card">
         <a href = "assets/poster.pdf">
           <img sclass = "blog-pic" src = "assets/poster.jpg" alt = "Evolutionary Dynamics poster">
@@ -165,25 +159,21 @@
 
   </div>
 
-  </section>
 
   <br> <br>
   <!-- End Section 2 -->
-  </div>
-  <section class = "section-3" id = "footer">
-
     <div class = "footer" >
       <p> Intrigued? Send a note to sanath@u.northwestern.edu or connect with me over LinkedIn! </p>
 
       <a href = "https://www.linkedin.com/in/sanathang/">
       <img src="assets/linked.png"> </a>
     </div>
-
+  </div>
 
   <script src="js/typed.js"></script>
   <script>
     var typed = new Typed(".typed", {
-      strings: ["", "a developer^1000", "a student^1000", "a designer^1000"],
+      strings: ["", "a student^1000", "a problem-solver^1000", "an entrepreneur^1000", "a developer^1000"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true
