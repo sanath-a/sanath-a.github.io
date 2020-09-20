@@ -206,7 +206,7 @@ header a:hover {
   text-align: center;
   padding: 10px;
 }
-.card p { color: #979797; width: 90%}
+.card p { color: #979797; width: 90%;}
 .card a {
   text-decoration: none;
   color: #7ae2ff;
@@ -218,6 +218,14 @@ header a:hover {
 
 .card img { max-height: 360px;}
 
+.built-with {
+  margin-left: 10%;
+  width: 90%;
+}
+.built-span {
+  color: black;
+  font-weight: bold;
+}
 .footer {
   position: relative;
   top: 100%;
